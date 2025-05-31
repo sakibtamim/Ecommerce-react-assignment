@@ -1,0 +1,62 @@
+#categories {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.308);
+}
+#categories .head {
+  padding-bottom: 24px;
+}
+#categories .head .box {
+  height: 40px;
+  width: 20px;
+  border-radius: 4px;
+  background-color: #db4444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#categories .head p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+  background-color: #db4444;
+  background-clip: text;
+  margin-bottom: 0;
+  padding-left: 16px;
+}
+#categories .browsetxt h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+  padding-bottom: 60px;
+}
+#categories .categoriesBrowse .browseItem {
+  width: 95%;
+  height: auto;
+  padding: 24px 56px;
+  border: 1px solid rgba(0, 0, 0, 0.305);
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#categories .categoriesBrowse .browseItem svg {
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+#categories .categoriesBrowse .browseItem p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+#categories .categoriesBrowse .browseItem:hover {
+  background-color: #db4444;
+  color: #fff;
+}

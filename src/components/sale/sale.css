@@ -1,0 +1,316 @@
+#sale {
+  padding-top: 140px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.308);
+}
+#sale .head {
+  padding-bottom: 24px;
+}
+#sale .head .box {
+  height: 40px;
+  width: 20px;
+  border-radius: 4px;
+  background-color: #db4444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#sale .head p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+  background-color: #db4444;
+  background-clip: text;
+  margin-bottom: 0;
+  padding-left: 16px;
+}
+#sale .flashsale {
+  padding-bottom: 40px;
+}
+#sale .flashsale h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+}
+#sale .flashsale .timer p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+#sale .flashsale .timer span {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+#sale .flashsale .timer .colon {
+  position: relative;
+}
+#sale .flashsale .timer .colon::after {
+  position: absolute;
+  content: ":";
+  top: 50%;
+  right: 5px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #e07575;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+/* #sale .saleItems .card {
+  border: none;
+  cursor: pointer;
+  width: 90% !important;
+}
+#sale .saleItems .card .cardImg {
+  position: relative;
+  padding: 35px 40px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#sale .saleItems .card .cardImg .addcart {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  line-height: 40px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  scale: 0;
+}
+#sale .saleItems .card:hover .cardImg .addcart {
+  scale: 1;
+}
+#sale .saleItems .card .cardImg .discountper {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  height: 26px;
+  width: 55px;
+  border-radius: 4px;
+  background-color: #db4444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  line-height: 26px;
+}
+#sale .saleItems .card .cardImg .wishlist,
+.eye {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-color: #fff;
+  line-height: 34px;
+  font-size: 16px;
+  color: #000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#sale .saleItems .card .cardImg .eye {
+  top: 54px;
+}
+#sale .saleItems .card .card-body {
+  padding-left: 0;
+}
+#sale .saleItems .card .card-body .card-title {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+#sale .saleItems .card .card-body .discountPrice {
+  padding-bottom: 8px;
+}
+#sale .saleItems .card .card-body .discountPrice span {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #db4444;
+  margin-right: 12px;
+}
+#sale .saleItems .card .card-body .discountPrice .regularPrice {
+  color: rgba(0, 0, 0, 0.501);
+  text-decoration: line-through;
+}
+#sale .saleItems .card .card-body .rating p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+#sale .saleItems .card .card-body .rating svg {
+  font-size: 18px;
+  color: #ffad33;
+} */
+#sale .slicksaleitems {
+  padding-bottom: 60px;
+}
+#sale .slicksaleitems .saleItem {
+  height: auto;
+  width: 95%;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#sale .slicksaleitems .saleItem .saleItemImg {
+  position: relative;
+  padding: 35px 40px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#sale .slicksaleitems .saleItem .saleItemImg .discountper {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  height: 26px;
+  width: 55px;
+  border-radius: 4px;
+  background-color: #db4444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  line-height: 26px;
+}
+#sale .slicksaleitems .saleItem .saleItemImg .wishlist,
+.eye {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-color: #fff;
+  line-height: 34px;
+  font-size: 16px;
+  color: #000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#sale .slicksaleitems .saleItem .saleItemImg .eye {
+  top: 54px;
+}
+#sale .slicksaleitems .saleItem .saleItemImg .addcart {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  line-height: 40px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  scale: 0;
+}
+#sale .slicksaleitems .saleItem:hover .saleItemImg .addcart {
+  scale: 1;
+}
+#sale .slicksaleitems .saleItem .saleItemBody h5 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+#sale .slicksaleitems .saleItem .saleItemBody .discountPrice {
+  padding-bottom: 8px;
+}
+#sale .slicksaleitems .saleItem .saleItemBody .discountPrice span {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #db4444;
+  margin-right: 12px;
+}
+#sale .slicksaleitems .saleItem .saleItemBody .discountPrice .regularPrice {
+  color: rgba(0, 0, 0, 0.501);
+  text-decoration: line-through;
+}
+#sale .slicksaleitems .saleItem .saleItemBody .rating p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+#sale .slicksaleitems .saleItem .saleItemBody .rating svg {
+  font-size: 18px;
+  color: #ffad33;
+}
+.nextSaleBtn svg,
+.prevSaleBtn svg {
+  height: 46px;
+  width: 46px;
+  color: rgba(34, 34, 34, 0.504);
+  position: absolute;
+  right: 0;
+  top: -95px;
+  cursor: pointer;
+}
+.prevSaleBtn svg {
+  right: 54px;
+  z-index: 1;
+}
+.nextSaleBtn svg:hover,
+.prevSaleBtn svg:hover {
+  color: #222;
+}
+#sale .viewAll a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding: 16px 48px;
+  background-color: #db4444;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

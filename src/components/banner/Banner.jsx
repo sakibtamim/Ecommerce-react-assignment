@@ -32,13 +32,15 @@ function SamplePrevArrow(props) {
 }
 
 const Banner = () => {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    autoplay: true,
+    speed: 2000,
     arrows: true,
     slidesToShow: 1,
     slidesToScroll: 1,
+    pauseOnHover: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };

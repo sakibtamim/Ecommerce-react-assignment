@@ -1,0 +1,88 @@
+#musicbuy {
+  padding-bottom: 71px;
+}
+#musicbuy .musicbuyMain {
+  padding: 44px 0;
+  background-color: #000;
+}
+#musicbuy .musicbuyMain .bodyTxt h6 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #00ff66;
+  padding-bottom: 32px;
+  margin-bottom: 0;
+}
+#musicbuy .musicbuyMain .bodyTxt h2 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  padding-right: 85px;
+  padding-bottom: 32px;
+  margin-bottom: 0;
+}
+#musicbuy .musicbuyMain .bodyTxt .timer {
+  padding-bottom: 40px;
+}
+#musicbuy .musicbuyMain .bodyTxt .timer .colon {
+  padding: 14px 0;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background-color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#musicbuy .musicbuyMain .bodyTxt .timer .colon span {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+#musicbuy .musicbuyMain .bodyTxt .timer .colon p {
+  font-size: 11px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+  margin-top: -5px;
+}
+#musicbuy .musicbuyMain .bodyTxt .buyNow a {
+  padding: 16px 48px;
+  border-radius: 4px;
+  background-color: #00ff66;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#musicbuy .musicbuyMain .bodyImg {
+  position: relative;
+}
+#musicbuy .musicbuyMain .bodyImg img {
+  position: relative;
+  z-index: 2;
+}
+#musicbuy .musicbuyMain .bodyImg .circle {
+  position: absolute;
+  top: -40px;
+  right: 70px;
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 0.305);
+  filter: blur(150px);
+  z-index: 1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-filter: blur(150px);
+}
