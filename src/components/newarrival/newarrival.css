@@ -1,0 +1,104 @@
+#newarrival .head {
+  padding-bottom: 24px;
+}
+#newarrival .head .box {
+  height: 40px;
+  width: 20px;
+  border-radius: 4px;
+  background-color: #db4444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#newarrival .head p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+  background-color: #db4444;
+  background-clip: text;
+  margin-bottom: 0;
+  padding-left: 16px;
+}
+#newarrival .browsetxt h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+  padding-bottom: 60px;
+}
+
+#newarrival .newbody .newbodyitem1 {
+  position: relative;
+  padding: 90px 30px 0 30px;
+  background-color: #000;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#newarrival .newbody .newbodyitem1 .item1Text,
+.newbodyitem2 .item1Text,
+.newbodyitem3 .item1Text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  text-align: start;
+}
+#newarrival .newbody .newbodyitem1 .item1Text h3,
+.newbodyitem2 .item1Text h3,
+.newbodyitem3 .item1Text h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  padding-bottom: 16px;
+  margin-bottom: 0;
+}
+#newarrival .newbody .newbodyitem1 .item1Text p,
+.newbodyitem2 .item1Text p,
+.newbodyitem3 .item1Text p {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding-bottom: 16px;
+  padding-right: 350px;
+  margin-bottom: 0;
+}
+#newarrival .newbody .newbodyitem1 .item1Text a,
+.newbodyitem2 .item1Text a,
+.newbodyitem3 .item1Text a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+#newarrival .newbody .newbodyitem2 {
+  position: relative;
+  padding: 0 0 0 138px;
+  background-color: #000;
+  margin-bottom: 36px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#newarrival .newbody .newbodyitem3 {
+  position: relative;
+  padding: 30px;
+  background-color: #000;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#newarrival .newbody .newbodyitem3 .item1Text p {
+  padding-right: 0;
+}

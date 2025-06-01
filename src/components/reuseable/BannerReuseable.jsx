@@ -15,7 +15,7 @@ const BannerReuseable = ({
             <img src={titleLogo} alt="" />
             <p>{titleSeries}</p>
           </div>
-          <h2>{titleVoucher}</h2>
+          <h1>{titleVoucher}</h1>
 
           <div className="shop">
             <a href="">Shop now</a>

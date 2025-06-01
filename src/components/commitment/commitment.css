@@ -1,0 +1,19 @@
+#commitment {
+  padding-top: 140px;
+}
+#commitment .body img {
+  padding-bottom: 24px;
+}
+#commitment .body h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+#commitment .body p {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+}

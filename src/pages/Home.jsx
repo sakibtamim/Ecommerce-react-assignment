@@ -6,6 +6,9 @@ import Categories from "../components/categories/Categories";
 import BsellingProducts from "../components/bSellingProdutcs/BsellingProducts";
 import MusicBuy from "../components/musicBuy/MusicBuy";
 import ExploreProducts from "../components/exploreProdutcs/ExploreProducts";
+import NewArrival from "../components/newarrival/NewArrival";
+import Commitment from "../components/commitment/Commitment";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +20,9 @@ const Home = () => {
       <BsellingProducts />
       <MusicBuy />
       <ExploreProducts />
+      <NewArrival />
+      <Commitment />
+      <Footer />
     </>
   );
 };
