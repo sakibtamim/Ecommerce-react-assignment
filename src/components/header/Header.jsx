@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import React from "react";
 import "./header.css";
@@ -14,19 +15,32 @@ import { FiSearch } from "react-icons/fi";
 import Logo from "../../assets/Logo.png";
 import { GoHeart } from "react-icons/go";
 import { GrCart } from "react-icons/gr";
+import { ReactTyped } from "react-typed";
+import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [placeholder, setPlaceholder] = useState("");
   return (
     <section id="header">
       <div className="header">
         <Container>
           <Row>
-            <Col lg={6} className="text-center mx-auto">
-              <p>
-                Summer Sale For All Swim Suits And Free Express Delivery - OFF
-                50%!
-                <span>ShopNow</span>
-              </p>
+            <Col
+              lg={6}
+              className="typewritter
+            text-center mx-auto"
+            >
+              <ReactTyped
+                strings={[
+                  `<span>Summer Sale For All Swim Suits And</span>`,
+
+                  `<span> Free Express Delivery-OFF
+                50% <b>ShopNow</b></span>`,
+                ]}
+                typeSpeed={40}
+                loop={true}
+                backSpeed={50}
+              />
             </Col>
             <Col lg={1} className="text-end">
               <DropdownButton
@@ -51,15 +65,38 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Contact</Nav.Link>
-              <Nav.Link href="#link">About</Nav.Link>
-              <Nav.Link href="#link">Sign up</Nav.Link>
+              <Nav.Link>
+                <Link to={"/"}>Home</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to={"/contact"}>Contact</Link>
+              </Nav.Link>
+              <Nav.Link>About</Nav.Link>
+              <Nav.Link>Sign up</Nav.Link>
             </Nav>
             <Form className="d-flex search">
+              <span style={{ display: "none" }}>
+                <ReactTyped
+                  strings={[
+                    "Search for products",
+                    "Search for categories",
+                    "Search for brands",
+                    "Search for medicine",
+                    "Search for Sports",
+                    "Search for Groceries",
+                  ]}
+                  typeSpeed={40}
+                  backSpeed={50}
+                  loop={true}
+                  attr="placeholder"
+                  onStringTyped={(index, self) => {
+                    setPlaceholder(self.strings[index]);
+                  }}
+                />
+              </span>
               <Form.Control
                 type="search"
-                placeholder="What are you looking for?"
+                placeholder={placeholder || "What are you looking for?"}
                 className="me-2 searchInput"
                 aria-label="Search"
               />

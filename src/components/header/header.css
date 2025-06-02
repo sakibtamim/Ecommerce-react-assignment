@@ -6,20 +6,20 @@
 }
 #header .header {
   background-color: black;
+  margin-left: 0 !important;
 }
-#header .header p {
-  padding: 12px 0;
-  font-size: 14px;
+#header .header .typewritter {
+  padding: 15px 0 !important;
+}
+#header .header .typewritter span {
+  font-size: 16px;
   font-weight: normal;
   font-family: "Poppins", sans-serif;
   color: #fafafa;
   margin-bottom: 0;
-}
-#header .header p span {
-  font-weight: bold;
-  margin-left: 8px;
   cursor: pointer;
 }
+
 #header .header .languageBtn button {
   background-color: transparent;
   border: none;
@@ -44,13 +44,24 @@
   padding-bottom: 16px !important;
 }
 .navMenu .navbar-nav a {
+  position: relative;
   font-size: 16px;
   font-weight: normal;
   font-family: "Poppins", sans-serif;
   color: #000;
 }
-.navMenu .navbar-nav a:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.508);
+.navMenu .navbar-nav a::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 85%;
+  bottom: 5px;
+  left: 5px;
+  background-color: rgba(0, 0, 0, 0.508);
+  scale: 0;
+}
+.navMenu .navbar-nav a:hover::before {
+  scale: 1;
 }
 .navMenu .search {
   position: relative;

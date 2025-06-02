@@ -6,7 +6,7 @@ import QR from "../../assets/qr.png";
 import GooglePlay from "../../assets/googleplay.png";
 import AppleStore from "../../assets/applestore.png";
 import { PiCopyrightLight } from "react-icons/pi";
-
+import ScrollToTop from "react-scroll-to-top";
 import {
   RiFacebookLine,
   RiTwitterLine,
@@ -111,6 +111,9 @@ const Footer = () => {
         <p>
           <PiCopyrightLight /> Copyright Sakib 2025. All right reserved
         </p>
+      </div>
+      <div className="backtotop">
+        <ScrollToTop smooth />
       </div>
     </section>
   );
