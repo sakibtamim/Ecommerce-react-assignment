@@ -33,9 +33,7 @@ const Header = () => {
               <ReactTyped
                 strings={[
                   `<span>Summer Sale For All Swim Suits And</span>`,
-
-                  `<span> Free Express Delivery-OFF
-                50% <b>ShopNow</b></span>`,
+                  `<span> Free Express Delivery OFF 50% <b>ShopNow</b></span>`,
                 ]}
                 typeSpeed={40}
                 loop={true}

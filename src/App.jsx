@@ -21,10 +21,9 @@ let router = createBrowserRouter(
 
 function App() {
   let [loading, setLoading] = useState(true);
-  document.body.style.overflow = loading ? "hidden" : "auto";
+
   setTimeout(() => {
     setLoading(false);
-    document.body.style.overflow = "auto";
   }, 1000);
 
   return (
