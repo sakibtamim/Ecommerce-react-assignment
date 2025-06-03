@@ -71,8 +71,12 @@ const Header = () => {
               <Nav.Link>
                 <Link to={"/contact"}>Contact</Link>
               </Nav.Link>
-              <Nav.Link>About</Nav.Link>
-              <Nav.Link>Sign up</Nav.Link>
+              <Nav.Link>
+                <Link to={"/about"}>About</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to={"/signup"}>Sign up</Link>
+              </Nav.Link>
             </Nav>
             <Form className="d-flex search">
               <span style={{ display: "none" }}>

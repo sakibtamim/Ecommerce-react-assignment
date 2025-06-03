@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -7,6 +8,7 @@ import {
 import Home from "./pages/Home";
 import Contactpage from "./pages/Contactpage";
 import Layouts from "./components/Layouts";
+import { Cube } from "react-preloaders";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,9 +20,22 @@ let router = createBrowserRouter(
 );
 
 function App() {
+  let [loading, setLoading] = useState(true);
+  document.body.style.overflow = loading ? "hidden" : "auto";
+  setTimeout(() => {
+    setLoading(false);
+    document.body.style.overflow = "auto";
+  }, 1000);
+
   return (
     <>
-      <RouterProvider router={router} />
+      {loading == true ? (
+        <Cube />
+      ) : (
+        <>
+          <RouterProvider router={router} />
+        </>
+      )}
     </>
   );
 }

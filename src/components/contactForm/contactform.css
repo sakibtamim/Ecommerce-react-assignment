@@ -1,0 +1,20 @@
+#contactForm {
+  padding-top: 200px;
+  padding-bottom: 140px;
+}
+#contactForm .subMenu {
+  padding-bottom: 84px;
+}
+#contactForm .subMenu a {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+#contactForm .subMenu svg {
+  margin: 0 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+#contactForm .subMenu .active {
+  color: #000;
+}
