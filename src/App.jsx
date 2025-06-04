@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ScrollToTop from "react-scroll-to-top";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -8,7 +9,7 @@ import {
 import Home from "./pages/Home";
 import Contactpage from "./pages/Contactpage";
 import Layouts from "./components/Layouts";
-import { Cube } from "react-preloaders";
+import "./App.css";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
@@ -29,10 +30,11 @@ function App() {
   return (
     <>
       {loading == true ? (
-        <Cube />
+        <div className="loading"></div>
       ) : (
         <>
           <RouterProvider router={router} />
+          <ScrollToTop smooth />
         </>
       )}
     </>
