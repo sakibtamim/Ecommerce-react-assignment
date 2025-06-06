@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
+
 import Dropdown from "react-bootstrap/Dropdown";
 import React from "react";
 import "./header.css";
@@ -63,17 +65,33 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link>
-                <Link to={"/"}>Home</Link>
+              <Nav.Link
+                as={NavLink}
+                to="/"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Home
               </Nav.Link>
-              <Nav.Link>
-                <Link to={"/contact"}>Contact</Link>
+              <Nav.Link
+                as={NavLink}
+                to="/contact"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Contact
               </Nav.Link>
-              <Nav.Link>
-                <Link to={"/about"}>About</Link>
+              <Nav.Link
+                as={NavLink}
+                to="/about"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                About
               </Nav.Link>
-              <Nav.Link>
-                <Link to={"/signup"}>Sign up</Link>
+              <Nav.Link
+                as={NavLink}
+                to="/signup"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Sign up
               </Nav.Link>
             </Nav>
             <Form className="d-flex search">
