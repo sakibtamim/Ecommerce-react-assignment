@@ -1,17 +1,17 @@
-#header {
+#signupheader {
   position: fixed;
   width: 100%;
   z-index: 999;
   border-bottom: 1px solid rgba(161, 161, 161, 0.308);
 }
-#header .header {
+#signupheader .header {
   background-color: black;
   margin-left: 0 !important;
 }
-#header .header .typewritter {
+#signupheader .header .typewritter {
   padding: 15px 0 !important;
 }
-#header .header .typewritter span {
+#signupheader .header .typewritter span {
   font-size: 16px;
   font-weight: normal;
   font-family: "Poppins", sans-serif;
@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 
-#header .header .languageBtn button {
+#signupheader .header .languageBtn button {
   background-color: transparent;
   border: none;
   padding: 12px 0;
@@ -29,22 +29,22 @@
   font-family: "Poppins", sans-serif;
   color: #fafafa;
 }
-#header .dropdown-menu {
+#signupheader .dropdown-menu {
   --bs-dropdown-min-width: 0 !important;
 }
-#header .dropdown-menu a {
+#signupheader .dropdown-menu a {
   font-size: 14px;
   font-weight: normal;
   font-family: "Poppins", sans-serif;
   text-align: end;
 }
-#header .navMenu {
+#signupheader .navMenu {
   background-color: #fff;
   padding-top: 20px !important;
   padding-bottom: 16px !important;
 }
 
-#header .navMenu .navbar-nav a.nav-link {
+#signupheader .navMenu .navbar-nav a.nav-link {
   position: relative;
   font-size: 16px;
   font-weight: normal;
@@ -53,12 +53,12 @@
   padding: 8px 24px !important;
 }
 
-#header .navMenu a.nav-link.active {
+#signupheader .navMenu a.nav-link.active {
   position: relative;
   font-weight: bold;
   scale: 1;
 }
-#header .navMenu a.nav-link.active::after {
+#signupheader .navMenu a.nav-link.active::after {
   position: absolute;
   content: "";
   height: 2px;
@@ -69,10 +69,10 @@
   scale: 1;
 }
 
-#header .navMenu .search {
+#signupheader .navMenu .search {
   position: relative;
 }
-#header .navMenu .search input {
+#signupheader .navMenu .search input {
   width: 250px;
   font-size: 12px;
   font-weight: normal;
@@ -83,7 +83,7 @@
   outline: none;
   box-shadow: none;
 }
-#header .navMenu .search svg {
+#signupheader .navMenu .search svg {
   font-size: 16px;
   color: #000;
   position: absolute;
@@ -95,10 +95,10 @@
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
-#header .navMenu .cart {
+#signupheader .navMenu .cart {
   padding-left: 16px;
 }
-#header .navMenu .cart svg {
+#signupheader .navMenu .cart svg {
   font-size: 18px;
   color: #000;
 }

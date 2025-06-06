@@ -1,0 +1,57 @@
+#login {
+  padding-top: 190px;
+}
+
+#login .create h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 24px;
+}
+#login .create p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Popping", sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 48px;
+}
+#login .create input {
+  padding: 8px 0;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Popping", sans-serif;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+#login .create input ::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+#login .create .access {
+  padding-top: 40px;
+}
+#login .create .access button {
+  padding: 16px 48px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Popping", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #db4444;
+  border: none;
+}
+#login .create .access a {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Popping", sans-serif;
+  color: #db4444;
+}

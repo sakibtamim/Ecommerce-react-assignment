@@ -24,7 +24,7 @@ img {
 }
 
 .scroll-to-top {
-  bottom: 90px;
+  bottom: 90px !important ;
   width: 48px;
   height: 48px;
   border-radius: 50% !important;

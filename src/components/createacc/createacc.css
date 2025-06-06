@@ -1,0 +1,87 @@
+#createacc {
+  padding-top: 190px;
+}
+
+#createacc .create h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 24px;
+}
+#createacc .create p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Popping", sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 48px;
+}
+#createacc .create input {
+  padding: 8px 0;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Popping", sans-serif;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+#createacc .create input ::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+#createacc .create button {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Popping", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #db4444;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+#createacc .withgoogle {
+  padding: 16px 0;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-bottom: 32px;
+}
+#createacc .withgoogle p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Popping", sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#createacc .withgoogle img {
+  margin-right: 16px;
+}
+#createacc .haveacc p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Popping", sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: hsla(0, 0%, 0%, 0.7);
+}
+#createacc .haveacc a {
+  font-weight: 600;
+  color: hsla(0, 0%, 0%, 0.7);
+  margin-left: 16px;
+  border-bottom: 1px solid #000;
+}

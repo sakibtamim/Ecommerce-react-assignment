@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import Dropdown from "react-bootstrap/Dropdown";
 import React from "react";
-import "./header.css";
 import {
   Col,
   Container,
@@ -18,11 +16,12 @@ import Logo from "../../assets/Logo.png";
 import { GoHeart } from "react-icons/go";
 import { GrCart } from "react-icons/gr";
 import { ReactTyped } from "react-typed";
+import "./signupheder.css";
 
-const Header = () => {
+const SignUpHeader = () => {
   const [placeholder, setPlaceholder] = useState("");
   return (
-    <section id="header">
+    <section id="signupheader">
       <div className="header">
         <Container>
           <Row>
@@ -121,10 +120,6 @@ const Header = () => {
               />
               <FiSearch />
             </Form>
-            <div className="cart d-flex gap-3">
-              <GoHeart />
-              <GrCart />
-            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
@@ -132,4 +127,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default SignUpHeader;

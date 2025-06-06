@@ -1,9 +1,14 @@
+import React from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import Dropdown from "react-bootstrap/Dropdown";
-import React from "react";
-import "./header.css";
+import { FiSearch } from "react-icons/fi";
+import Logo from "../../assets/Logo.png";
+import { GoHeart } from "react-icons/go";
+import { GrCart } from "react-icons/gr";
+import { ReactTyped } from "react-typed";
+import { FiUser } from "react-icons/fi";
+
 import {
   Col,
   Container,
@@ -13,16 +18,12 @@ import {
   Navbar,
   Row,
 } from "react-bootstrap";
-import { FiSearch } from "react-icons/fi";
-import Logo from "../../assets/Logo.png";
-import { GoHeart } from "react-icons/go";
-import { GrCart } from "react-icons/gr";
-import { ReactTyped } from "react-typed";
 
-const Header = () => {
+import "./contactheader.css";
+const ContactHeader = () => {
   const [placeholder, setPlaceholder] = useState("");
   return (
-    <section id="header">
+    <section id="conHeader">
       <div className="header">
         <Container>
           <Row>
@@ -93,7 +94,7 @@ const Header = () => {
                 Sign up
               </Nav.Link>
             </Nav>
-            <Form className="d-flex search">
+            <Form className="d-flex  search">
               <span style={{ display: "none" }}>
                 <ReactTyped
                   strings={[
@@ -121,9 +122,10 @@ const Header = () => {
               />
               <FiSearch />
             </Form>
-            <div className="cart d-flex gap-3">
+            <div className="carts d-flex gap-3">
               <GoHeart />
               <GrCart />
+              <FiUser />
             </div>
           </Navbar.Collapse>
         </Container>
@@ -132,4 +134,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default ContactHeader;
