@@ -1,5 +1,7 @@
 #categories {
   padding-top: 80px;
+}
+#categories .borderbtm {
   padding-bottom: 70px;
   border-bottom: 1px solid rgba(161, 161, 161, 0.308);
 }

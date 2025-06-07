@@ -12,6 +12,7 @@ import Layouts from "./components/Layouts";
 import SignUpPage from "./pages/SignUpPage";
 import LogInpage from "./pages/LogInpage";
 import "./App.css";
+import LogInHomePage from "./pages/LogInHomePage";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ let router = createBrowserRouter(
       <Route path="/contact" element={<Contactpage />}></Route>
       <Route path="/signup" element={<SignUpPage />}></Route>
       <Route path="/login" element={<LogInpage />}></Route>
+      <Route path="/userloginhome" element={<LogInHomePage />}></Route>
     </Route>
   )
 );

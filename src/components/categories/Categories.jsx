@@ -43,44 +43,46 @@ const Categories = () => {
   return (
     <section id="categories">
       <Container>
-        <Row>
-          <Col lg={2}>
-            <div className="head d-flex align-items-center">
-              <div className="box"></div>
-              <p>Categories</p>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col lg={4} className="browsetxt">
-            <h2>Browse By Category</h2>
-          </Col>
-        </Row>
+        <div className="borderbtm">
+          <Row>
+            <Col lg={2}>
+              <div className="head d-flex align-items-center">
+                <div className="box"></div>
+                <p>Categories</p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg={4} className="browsetxt">
+              <h2>Browse By Category</h2>
+            </Col>
+          </Row>
 
-        <div className="categoriesBrowse">
-          <Slider {...settings}>
-            <CategoriesReuseable
-              itemIcon={<GiSmartphone />}
-              itemName="Phones"
-            />
-            <CategoriesReuseable
-              itemIcon={<HiOutlineComputerDesktop />}
-              itemName="Computers"
-            />
-            <CategoriesReuseable
-              itemIcon={<BsSmartwatch />}
-              itemName="SmartWatch"
-            />
-            <CategoriesReuseable itemIcon={<CiCamera />} itemName="Camera" />
-            <CategoriesReuseable
-              itemIcon={<PiHeadphonesThin />}
-              itemName="HeadPhones"
-            />
-            <CategoriesReuseable
-              itemIcon={<MdOutlineVideogameAsset />}
-              itemName="Gaming"
-            />
-          </Slider>
+          <div className="categoriesBrowse">
+            <Slider {...settings}>
+              <CategoriesReuseable
+                itemIcon={<GiSmartphone />}
+                itemName="Phones"
+              />
+              <CategoriesReuseable
+                itemIcon={<HiOutlineComputerDesktop />}
+                itemName="Computers"
+              />
+              <CategoriesReuseable
+                itemIcon={<BsSmartwatch />}
+                itemName="SmartWatch"
+              />
+              <CategoriesReuseable itemIcon={<CiCamera />} itemName="Camera" />
+              <CategoriesReuseable
+                itemIcon={<PiHeadphonesThin />}
+                itemName="HeadPhones"
+              />
+              <CategoriesReuseable
+                itemIcon={<MdOutlineVideogameAsset />}
+                itemName="Gaming"
+              />
+            </Slider>
+          </div>
         </div>
       </Container>
     </section>

@@ -1,0 +1,226 @@
+#userexploreproducts {
+  padding-bottom: 168px;
+}
+#userexploreproducts .head {
+  padding-bottom: 24px;
+}
+#userexploreproducts .head .box {
+  height: 40px;
+  width: 20px;
+  border-radius: 4px;
+  background-color: #db4444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#userexploreproducts .head p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+  background-color: #db4444;
+  background-clip: text;
+  margin-bottom: 0;
+  padding-left: 16px;
+}
+#userexploreproducts .browsetxt h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+  padding-bottom: 60px;
+}
+
+#userexploreproducts .exploreproductsItems .productsItem {
+  width: 95%;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+#userexploreproducts .exploreproductsItems .productsItem .productsItemImg {
+  position: relative;
+  padding: 35px 40px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#userexploreproducts .exploreproductsItems .productsItem .productsItemImg .new {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#userexploreproducts
+  .exploreproductsItems
+  .productsItem
+  .productsItemImg
+  .wishlist,
+.eye {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-color: #fff;
+  line-height: 34px;
+  font-size: 16px;
+  color: #000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#userexploreproducts .exploreproductsItems .productsItem .productsItemImg .eye {
+  top: 54px;
+}
+#userexploreproducts
+  .exploreproductsItems
+  .productsItem
+  .productsItemImg
+  .addcart {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  line-height: 40px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  scale: 0;
+}
+#userexploreproducts
+  .exploreproductsItems
+  .productsItem:hover
+  .productsItemImg
+  .addcart {
+  scale: 1;
+}
+#userexploreproducts .exploreproductsItems .productsItem .productsItembody h5 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+#userexploreproducts
+  .exploreproductsItems
+  .productsItem
+  .productsItembody
+  .rating
+  span {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #db4444;
+  margin-right: 8px;
+}
+#userexploreproducts
+  .exploreproductsItems
+  .productsItem
+  .productsItembody
+  .rating
+  p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+#userexploreproducts
+  .exploreproductsItems
+  .productsItem
+  .productsItembody
+  .rating
+  svg {
+  font-size: 18px;
+  color: #ffad33;
+}
+#userexploreproducts
+  .exploreproductsItems
+  .productsItem
+  .productsItembody
+  .colorchoice
+  .color1 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#userexploreproducts
+  .exploreproductsItems
+  .productsItem
+  .productsItembody
+  .colorchoice
+  .color1
+  .active {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+#userexploreproducts
+  .exploreproductsItems
+  .productsItem
+  .productsItembody
+  .colorchoice
+  .color2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#userexploreproducts .viewallProducts a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding: 16px 48px;
+  border-radius: 4px;
+  background-color: #db4444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

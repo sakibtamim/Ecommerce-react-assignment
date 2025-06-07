@@ -74,26 +74,27 @@ const Sale = () => {
   return (
     <section id="sale">
       <Container>
-        <Row>
-          <Col lg={2}>
-            <div className="head d-flex align-items-center">
-              <div className="box"></div>
-              <p>Today’s</p>
-            </div>
-          </Col>
-        </Row>
-        <Row className=" flashsale align-items-end">
-          <Col lg={2}>
-            <h2>Flash sales</h2>
-          </Col>
-          <Col lg={3} className="offset-lg-1">
-            <div>
-              <MyTimer expiryTimestamp={time} />
-            </div>
-          </Col>
-        </Row>
+        <div className="borderbtm">
+          <Row>
+            <Col lg={2}>
+              <div className="head d-flex align-items-center">
+                <div className="box"></div>
+                <p>Today’s</p>
+              </div>
+            </Col>
+          </Row>
+          <Row className=" flashsale align-items-end">
+            <Col lg={2}>
+              <h2>Flash sales</h2>
+            </Col>
+            <Col lg={3} className="offset-lg-1">
+              <div>
+                <MyTimer expiryTimestamp={time} />
+              </div>
+            </Col>
+          </Row>
 
-        {/* <div className="saleItems">
+          {/* <div className="saleItems">
           <Row>
             <SaleReuseable
               titleImg={HavitGamepad}
@@ -129,47 +130,48 @@ const Sale = () => {
             />
           </Row>
         </div> */}
-        <div className="slicksaleitems">
-          <Slider {...settings}>
-            <SaleReuseable
-              titleImg={HavitGamepad}
-              titleName="HAVIT HV-G92 Gamepad"
-              titledisper="-40%"
-              titleRegular="$160"
-              titlediscount="$120"
-              titleRating="88"
-            />
-            <SaleReuseable
-              titleImg={GamingKeyboard}
-              titleName="AK-900 Wired Keyboard"
-              titledisper="-35%"
-              titleRegular="$1160"
-              titlediscount="$960"
-              titleRating="75"
-              titleRatingBlank="rgba(0, 0, 0, 0.251)"
-            />
-            <SaleReuseable
-              titleImg={GamingMonitor}
-              titleName="IPS LCD Gaming Monitor"
-              titledisper="-30%"
-              titleRegular="$400"
-              titlediscount="$370"
-              titleRating="99"
-            />
-            <SaleReuseable
-              titleImg={ComfortChair}
-              titleName="S-Series Comfort Chair"
-              titledisper="-25%"
-              titleRegular="$400"
-              titlediscount="$300"
-              titleRating="88"
-              titleRatingBlank="rgba(0, 0, 0, 0.251)"
-            />
-          </Slider>
-        </div>
+          <div className="slicksaleitems">
+            <Slider {...settings}>
+              <SaleReuseable
+                titleImg={HavitGamepad}
+                titleName="HAVIT HV-G92 Gamepad"
+                titledisper="-40%"
+                titleRegular="$160"
+                titlediscount="$120"
+                titleRating="88"
+              />
+              <SaleReuseable
+                titleImg={GamingKeyboard}
+                titleName="AK-900 Wired Keyboard"
+                titledisper="-35%"
+                titleRegular="$1160"
+                titlediscount="$960"
+                titleRating="75"
+                titleRatingBlank="rgba(0, 0, 0, 0.251)"
+              />
+              <SaleReuseable
+                titleImg={GamingMonitor}
+                titleName="IPS LCD Gaming Monitor"
+                titledisper="-30%"
+                titleRegular="$400"
+                titlediscount="$370"
+                titleRating="99"
+              />
+              <SaleReuseable
+                titleImg={ComfortChair}
+                titleName="S-Series Comfort Chair"
+                titledisper="-25%"
+                titleRegular="$400"
+                titlediscount="$300"
+                titleRating="88"
+                titleRatingBlank="rgba(0, 0, 0, 0.251)"
+              />
+            </Slider>
+          </div>
 
-        <div className="viewAll text-center">
-          <a href="">View All Products</a>
+          <div className="viewAll text-center">
+            <a href="">View All Products</a>
+          </div>
         </div>
       </Container>
     </section>

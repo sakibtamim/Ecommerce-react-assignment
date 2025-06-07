@@ -1,5 +1,7 @@
 #sale {
   padding-top: 140px;
+}
+#sale .borderbtm {
   padding-bottom: 60px;
   border-bottom: 1px solid rgba(161, 161, 161, 0.308);
 }

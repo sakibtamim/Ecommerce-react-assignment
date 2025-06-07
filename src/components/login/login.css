@@ -39,15 +39,20 @@
 #login .create .access {
   padding-top: 40px;
 }
-#login .create .access button {
+
+#login .create .access a.loginbtn {
   padding: 16px 48px;
+  border-radius: 4px;
+  background-color: #db4444;
   font-size: 16px;
   font-weight: 600;
   font-family: "Popping", sans-serif;
   color: #fff;
   text-transform: capitalize;
-  background-color: #db4444;
-  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 #login .create .access a {
   font-size: 16px;

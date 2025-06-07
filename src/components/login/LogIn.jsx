@@ -3,6 +3,7 @@ import { Button, Col, Container, InputGroup, Row } from "react-bootstrap";
 import "./login.css";
 import SignUpBanImg from "../../assets/signupban.png";
 import Form from "react-bootstrap/Form";
+import { Link } from "react-router-dom";
 
 const LogIn = () => {
   return (
@@ -31,7 +32,10 @@ const LogIn = () => {
               />
             </InputGroup>
             <div className=" access d-flex justify-content-between align-items-center">
-              <Button>Log In</Button>
+              <Link to={"/userloginhome"} className="loginbtn">
+                Log in
+              </Link>
+
               <a href="">Forget Password?</a>
             </div>
           </Col>
