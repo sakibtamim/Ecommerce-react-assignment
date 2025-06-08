@@ -1,0 +1,128 @@
+#accountmanage {
+  padding-top: 222px;
+}
+
+#accountmanage .subMenu {
+  padding-bottom: 84px;
+}
+#accountmanage .subMenu a {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+#accountmanage .subMenu svg {
+  margin: 0 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+#accountmanage .subMenu .active {
+  color: #000;
+}
+#accountmanage .user p {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+#accountmanage .user span {
+  color: #db4444;
+}
+#accountmanage .main {
+  padding-top: 80px;
+}
+#accountmanage .main .manageacc,
+.order {
+  padding-bottom: 24px;
+}
+#accountmanage .main .manageacc h3,
+.order h3,
+.wishlist h3 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 16px;
+}
+#accountmanage .main .manageacc ul,
+.order ul {
+  padding-left: 30px;
+}
+#accountmanage .main .manageacc ul li,
+.order ul li {
+  padding-bottom: 8px;
+}
+#accountmanage .main .manageacc ul li:last-child,
+.order ul li:last-child {
+  padding-bottom: 0;
+}
+#accountmanage .main .manageacc ul li a,
+.order ul li a {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+#accountmanage .main .manageacc ul li a.active {
+  color: #db4444;
+}
+#accountmanage .main .editprofile {
+  padding: 40px 80px;
+  border-radius: 4px;
+  box-shadow: 0 1px 13px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#accountmanage .main .editprofile h2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #db4444;
+  padding-bottom: 16px;
+}
+#accountmanage .main .editprofile form label {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 8px;
+}
+#accountmanage .main .editprofile form input {
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.501);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  text-transform: initial;
+}
+#accountmanage .main .editprofile form .usegap {
+  margin: 16px 0;
+}
+#accountmanage .main .editprofile form .change {
+  padding-top: 24px;
+}
+#accountmanage .main .editprofile form .change a {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+#accountmanage .main .editprofile form .change a.save {
+  margin-left: 32px;
+  padding: 16px 48px;
+  border-radius: 4px;
+  background-color: #db4444;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

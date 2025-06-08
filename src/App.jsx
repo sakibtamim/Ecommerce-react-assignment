@@ -13,6 +13,7 @@ import SignUpPage from "./pages/SignUpPage";
 import LogInpage from "./pages/LogInpage";
 import "./App.css";
 import LogInHomePage from "./pages/LogInHomePage";
+import AccountPage from "./pages/AccountPage";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ let router = createBrowserRouter(
       <Route path="/signup" element={<SignUpPage />}></Route>
       <Route path="/login" element={<LogInpage />}></Route>
       <Route path="/userloginhome" element={<LogInHomePage />}></Route>
+      <Route path="/useraccount" element={<AccountPage />}></Route>
     </Route>
   )
 );

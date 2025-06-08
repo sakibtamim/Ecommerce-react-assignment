@@ -160,6 +160,7 @@ const LoginHomeHeader = () => {
                   <ul>
                     <li>
                       <Link
+                        to={"/useraccount"}
                         className="d-flex gap-3 
                       align-items-center"
                       >
@@ -192,6 +193,7 @@ const LoginHomeHeader = () => {
                     </li>
                     <li>
                       <Link
+                        to={"/"}
                         className="d-flex gap-3 
                       align-items-center"
                       >
