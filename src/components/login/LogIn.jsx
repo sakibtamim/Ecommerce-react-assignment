@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, InputGroup, Row } from "react-bootstrap";
+import { Col, Container, InputGroup, Row } from "react-bootstrap";
 import "./login.css";
 import SignUpBanImg from "../../assets/signupban.png";
 import Form from "react-bootstrap/Form";

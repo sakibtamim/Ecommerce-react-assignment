@@ -14,6 +14,7 @@ import LogInpage from "./pages/LogInpage";
 import "./App.css";
 import LogInHomePage from "./pages/LogInHomePage";
 import AccountPage from "./pages/AccountPage";
+import AboutPage from "./pages/AboutPage";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +25,7 @@ let router = createBrowserRouter(
       <Route path="/login" element={<LogInpage />}></Route>
       <Route path="/userloginhome" element={<LogInHomePage />}></Route>
       <Route path="/useraccount" element={<AccountPage />}></Route>
+      <Route path="/about" element={<AboutPage />}></Route>
     </Route>
   )
 );

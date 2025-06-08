@@ -1,0 +1,103 @@
+#aboutbanner {
+  padding-top: 222px;
+}
+#aboutbanner .subMenu {
+  padding-bottom: 42px;
+}
+#aboutbanner .subMenu a {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+#aboutbanner .subMenu svg {
+  margin: 0 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+#aboutbanner .subMenu .active {
+  color: #000;
+}
+#aboutbanner .banner {
+  padding-bottom: 140px;
+}
+#aboutbanner .banner h2 {
+  font-size: 54px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 40px;
+}
+#aboutbanner .banner p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+#aboutbanner .infos {
+  padding-bottom: 140px;
+}
+#aboutbanner .infos .card {
+  padding: 30px 0;
+}
+
+#aboutbanner .infos .card .circle1 {
+  position: relative;
+  margin: 0 auto;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgba(47, 46, 48, 0.307);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 24px;
+}
+#aboutbanner .infos .card .circle1 .circle2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+  background-color: #000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+#aboutbanner .infos .card .circle1 .circle2 svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 40px;
+}
+#aboutbanner .infos .card h5 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 12px;
+}
+#aboutbanner .infos .card p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+#aboutbanner .infos .card:hover {
+  background-color: #db4444;
+  color: #fff;
+}
+#aboutbanner .infos .card:hover .circle1 {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#aboutbanner .infos .card:hover .circle1 .circle2 {
+  background-color: #fff;
+}
+#aboutbanner .infos .card:hover .circle1 .circle2 svg {
+  color: #000;
+}
