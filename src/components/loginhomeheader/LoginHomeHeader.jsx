@@ -174,6 +174,7 @@ const LoginHomeHeader = () => {
                     </li>
                     <li>
                       <Link
+                        to={"/cart"}
                         className="d-flex gap-3 
                       align-items-center"
                       >
@@ -182,6 +183,7 @@ const LoginHomeHeader = () => {
                     </li>
                     <li>
                       <Link
+                        to={"/404"}
                         className="d-flex gap-3 
                       align-items-center"
                       >
