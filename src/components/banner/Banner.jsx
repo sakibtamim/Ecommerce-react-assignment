@@ -6,7 +6,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import AppleLogo from "../../assets/appleLogo.png";
 import Iphone from "../../assets/iphone.png";
 import BannerReuseable from "../reuseable/BannerReuseable";
-import PixelLogo from "../../assets/Google.png";
+import PixelLogo from "../../assets/google.png";
 import SamsungLogo from "../../assets/samsungLogo.png";
 import Pixel from "../../assets/pixel.png";
 import Samsung from "../../assets/samsung.jpg";
