@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, InputGroup, Row } from "react-bootstrap";
-import "./contactForm.css";
+import "./contactform.css";
 import { Link } from "react-router-dom";
 import { HiSlash } from "react-icons/hi2";
 import { FiPhone } from "react-icons/fi";
