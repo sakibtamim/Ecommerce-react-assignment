@@ -3,7 +3,7 @@ import { Button, Col, Container, InputGroup, Row } from "react-bootstrap";
 import "./createacc.css";
 import SignUpBanImg from "../../assets/signupban.png";
 import Form from "react-bootstrap/Form";
-import GoogleIcon from "../../assets/icon-google.png";
+import GoogleIcon from "../../assets/IconGoogle.png";
 import { Link } from "react-router-dom";
 const CreateAcc = () => {
   return (
