@@ -155,7 +155,10 @@ const LoginHomeHeader = () => {
               <Link to={"/wishlist"}>
                 <GoHeart />
               </Link>
-              <GrCart />
+              <Link to={"/cart"}>
+                <GrCart />
+              </Link>
+
               <div className="userthird text-center" onClick={showOverlay}>
                 <FiUser />
                 <div className="overlay ">

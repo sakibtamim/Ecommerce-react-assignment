@@ -51,6 +51,7 @@ const WishlistItems = () => {
             />
           </Row>
         </div>
+        <div className="circleWishlist text-center">4</div>
       </Container>
     </section>
   );

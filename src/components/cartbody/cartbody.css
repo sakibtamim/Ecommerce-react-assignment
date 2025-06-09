@@ -1,0 +1,41 @@
+#cardbody {
+  padding-top: 222px;
+}
+#cardbody .circleWishlist {
+  top: 82px;
+  right: 708px;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  position: fixed;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  background-color: #db4444;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: 9999;
+}
+#cardbody .circlecart {
+  top: 82px;
+  right: 674px;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  position: fixed;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  background-color: #db4444;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: 99999;
+}

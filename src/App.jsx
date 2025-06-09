@@ -17,6 +17,7 @@ import AccountPage from "./pages/AccountPage";
 import AboutPage from "./pages/AboutPage";
 
 import WishlistPage from "./pages/WishlistPage";
+import Cartpage from "./pages/Cartpage";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
@@ -29,6 +30,7 @@ let router = createBrowserRouter(
       <Route path="/useraccount" element={<AccountPage />}></Route>
       <Route path="/about" element={<AboutPage />}></Route>
       <Route path="/wishlist" element={<WishlistPage />}></Route>
+      <Route path="/cart" element={<Cartpage />}></Route>
     </Route>
   )
 );
