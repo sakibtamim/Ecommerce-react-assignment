@@ -1,0 +1,41 @@
+#body404 {
+  padding-top: 222px;
+}
+#body404 .subMenu {
+  padding-bottom: 140px;
+}
+#body404 .subMenu a {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.504);
+}
+#body404 .subMenu a.active {
+  color: #000;
+}
+#body404 .main h2 {
+  font-size: 110px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 40px;
+}
+#body404 .main p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 80px;
+  margin-bottom: 0;
+}
+#body404 .main a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding: 16px 48px;
+  border-radius: 4px;
+  background-color: #db4444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
