@@ -15,9 +15,10 @@ import "./App.css";
 import LogInHomePage from "./pages/LogInHomePage";
 import AccountPage from "./pages/AccountPage";
 import AboutPage from "./pages/AboutPage";
-
 import WishlistPage from "./pages/WishlistPage";
 import Cartpage from "./pages/Cartpage";
+import CheckOutPage from "./pages/CheckOutPage";
+import Page404 from "./pages/Page404";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
@@ -31,6 +32,8 @@ let router = createBrowserRouter(
       <Route path="/about" element={<AboutPage />}></Route>
       <Route path="/wishlist" element={<WishlistPage />}></Route>
       <Route path="/cart" element={<Cartpage />}></Route>
+      <Route path="/checkout" element={<CheckOutPage />}></Route>
+      <Route path="/404" element={<Page404 />}></Route>
     </Route>
   )
 );
