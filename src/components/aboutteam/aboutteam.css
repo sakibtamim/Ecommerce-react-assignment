@@ -1,0 +1,36 @@
+#aboutteam {
+  padding-top: 50px;
+}
+#aboutteam .teammenbers .card {
+  border: none;
+}
+#aboutteam .teammenbers .card .teamimg {
+  background-color: #f5f5f5;
+  padding: 37px 67px 0 67px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#aboutteam .teammenbers .card .card-body {
+  padding-left: 0;
+}
+#aboutteam .teammenbers .card .card-body .card-title {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+#aboutteam .teammenbers .card .card-body .card-text {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 16px;
+}
+#aboutteam .teammenbers .card .card-body .socials svg {
+  font-size: 20px;
+  margin-right: 18px;
+}
