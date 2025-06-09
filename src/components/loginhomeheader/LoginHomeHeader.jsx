@@ -152,7 +152,9 @@ const LoginHomeHeader = () => {
               <FiSearch />
             </Form>
             <div className="carts d-flex align-items-center gap-3">
-              <GoHeart className="firstchild" />
+              <Link to={"/wishlist"}>
+                <GoHeart />
+              </Link>
               <GrCart />
               <div className="userthird text-center" onClick={showOverlay}>
                 <FiUser />
