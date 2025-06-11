@@ -45,13 +45,13 @@ const ExploreProducts = () => {
           <Col lg={2}>
             <div className="head d-flex align-items-center">
               <div className="box"></div>
-              <p>Categories</p>
+              <p>Our Products</p>
             </div>
           </Col>
         </Row>
         <Row>
           <Col lg={4} className="browsetxt">
-            <h2>Browse By Category</h2>
+            <h2>Explore Our Products</h2>
           </Col>
         </Row>
         <div className="exploreproductsItems">

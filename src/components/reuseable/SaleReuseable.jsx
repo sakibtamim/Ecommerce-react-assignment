@@ -3,8 +3,10 @@ import { Card, Col } from "react-bootstrap";
 import { FiEye } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const SaleReuseable = ({
+  onClick,
   titleImg,
   titledisper,
   titleName,
@@ -46,7 +48,7 @@ const SaleReuseable = ({
     //   </Card>
     // </Col>
 
-    <div className="saleItem">
+    <div className="saleItem" onClick={onClick}>
       <div className="saleItemImg">
         <img src={titleImg} className="w-100" alt="" />
         <div className="discountper text-center">{titledisper}</div>
@@ -56,7 +58,9 @@ const SaleReuseable = ({
         <div className="eye text-center">
           <FiEye />
         </div>
-        <div className="addcart text-center">Add To Cart</div>
+        <div className="addcart text-center">
+          <Link to={"/cart"}>Add To Cart</Link>
+        </div>
       </div>
       <div className="saleItemBody">
         <h5>{titleName}</h5>

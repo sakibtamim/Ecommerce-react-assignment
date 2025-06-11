@@ -9,6 +9,7 @@ import GamingMonitor from "../../assets/ipsmonitor.png";
 import ComfortChair from "../../assets/comfortchair.png";
 import SaleReuseable from "../reuseable/SaleReuseable";
 import { FaCircleArrowRight, FaCircleArrowLeft } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -59,6 +60,11 @@ function MyTimer({ expiryTimestamp }) {
 }
 
 const Sale = () => {
+  let navigate = useNavigate();
+
+  let gotoProductDetails = () => {
+    navigate("/productdetails");
+  };
   const time = new Date("June 17,2025 11:30:00");
   //   time.setSeconds(time.getSeconds()+600);If you want the countdown to start now and run for 10 minutes:
   const settings = {
@@ -133,6 +139,7 @@ const Sale = () => {
           <div className="slicksaleitems">
             <Slider {...settings}>
               <SaleReuseable
+                onClick={gotoProductDetails}
                 titleImg={HavitGamepad}
                 titleName="HAVIT HV-G92 Gamepad"
                 titledisper="-40%"

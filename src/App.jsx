@@ -19,6 +19,7 @@ import WishlistPage from "./pages/WishlistPage";
 import Cartpage from "./pages/Cartpage";
 import CheckOutPage from "./pages/CheckOutPage";
 import Page404 from "./pages/Page404";
+import ProductDetailsPage from "./pages/ProductDetailsPage";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,6 +35,7 @@ let router = createBrowserRouter(
       <Route path="/cart" element={<Cartpage />}></Route>
       <Route path="/checkout" element={<CheckOutPage />}></Route>
       <Route path="/404" element={<Page404 />}></Route>
+      <Route path="/productdetails" element={<ProductDetailsPage />}></Route>
     </Route>
   )
 );
