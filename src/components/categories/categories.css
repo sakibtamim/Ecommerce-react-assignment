@@ -62,3 +62,6 @@
   background-color: #db4444;
   color: #fff;
 }
+#categories .categoriesBrowse .browseItem:hover p {
+  color: #fff;
+}
