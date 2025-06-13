@@ -12,6 +12,8 @@ import InnerImageZoom from "react-inner-image-zoom";
 import { FaStar } from "react-icons/fa";
 import { GoDash, GoPlus } from "react-icons/go";
 import { IoIosHeartEmpty } from "react-icons/io";
+import { TbTruckDelivery } from "react-icons/tb";
+import { SlRefresh } from "react-icons/sl";
 const ProductDetailsBody = () => {
   let [count, setCount] = useState(0);
   function CounterUp() {
@@ -111,6 +113,28 @@ const ProductDetailsBody = () => {
                     </div>
                   </Col>
                 </Row>
+              </div>
+              <div className="policy">
+                <div className="freedelivery d-flex align-items-center">
+                  <div className="img">
+                    <TbTruckDelivery />
+                  </div>
+                  <div className="info">
+                    <h6>Free Delivery</h6>
+                    <p>Enter your postal code for Delivery Availability</p>
+                  </div>
+                </div>
+                <div className="return d-flex align-items-center">
+                  <div className="img">
+                    <SlRefresh />
+                  </div>
+                  <div className="info">
+                    <h6>Return Delivery</h6>
+                    <p>
+                      Free 30 Days Delivery Returns. <span>Details</span>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </Col>
