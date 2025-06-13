@@ -1,0 +1,142 @@
+#relateditems {
+  padding-top: 140px;
+}
+#relateditems .head {
+  padding-bottom: 75px;
+}
+#relateditems .head .box {
+  height: 40px;
+  width: 20px;
+  background-color: #db4444;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#relateditems .head p {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+#relateditems .head a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  padding: 16px 48px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#relateditems .forme .card {
+  border: none;
+}
+#relateditems .forme .card .itemImg {
+  position: relative;
+  padding: 22px 40px 48px 40px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#relateditems .forme .card .itemImg .discount {
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 12px;
+  border-radius: 4px;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#relateditems .forme .card .itemImg .circle {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  height: 34px;
+  width: 34px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#relateditems .forme .card .itemImg .circle svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+#relateditems .forme .card .itemImg .addcart a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 0;
+  background-color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  scale: 0;
+}
+#relateditems .forme .card:hover .itemImg .addcart a {
+  scale: 1;
+}
+#relateditems .forme .card .itemImg .addcart svg {
+  font-size: 24px;
+  margin-right: 8px;
+}
+#relateditems .forme .card .card-body {
+  padding-left: 0;
+}
+#relateditems .forme .card .card-body .card-title {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+#relateditems .forme .card .card-body .pricies {
+  padding-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #db4444;
+}
+#relateditems .forme .card .card-body .pricies .regularprice {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: line-through;
+}
+#relateditems .forme .card .card-body .ratings svg {
+  font-size: 20px;
+  color: #ffad33;
+}
+#relateditems .forme .card .card-body .ratings span {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
