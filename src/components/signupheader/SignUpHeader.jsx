@@ -13,8 +13,7 @@ import {
 } from "react-bootstrap";
 import { FiSearch } from "react-icons/fi";
 import Logo from "../../assets/Logo.png";
-import { GoHeart } from "react-icons/go";
-import { GrCart } from "react-icons/gr";
+
 import { ReactTyped } from "react-typed";
 import "./signupheder.css";
 
@@ -57,7 +56,7 @@ const SignUpHeader = () => {
       </div>
       <Navbar expand="lg" className="navMenu">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src={Logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

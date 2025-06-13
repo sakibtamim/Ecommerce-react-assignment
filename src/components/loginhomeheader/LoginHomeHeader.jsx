@@ -88,7 +88,7 @@ const LoginHomeHeader = () => {
       </div>
       <Navbar expand="lg" className="navMenu">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/userloginhome">
             <img src={Logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -151,7 +151,7 @@ const LoginHomeHeader = () => {
               />
               <FiSearch />
             </Form>
-            <div className="carts d-flex align-items-center gap-3">
+            <div className="carts d-flex  gap-3">
               <Link to={"/wishlist"}>
                 <GoHeart />
               </Link>

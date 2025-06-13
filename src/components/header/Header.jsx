@@ -58,7 +58,7 @@ const Header = () => {
       </div>
       <Navbar expand="lg" className="navMenu">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src={Logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
