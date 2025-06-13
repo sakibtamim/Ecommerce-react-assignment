@@ -1,25 +1,7 @@
 #wishlistitems {
   padding-top: 222px;
 }
-#wishlistitems .circleWishlist {
-  top: 82px;
-  right: 700px;
-  font-size: 12px;
-  font-weight: normal;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-  position: fixed;
-  height: 16px;
-  width: 16px;
-  line-height: 16px;
-  background-color: #db4444;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  z-index: 9999;
-}
+
 #wishlistitems .head {
   padding-bottom: 60px;
 }

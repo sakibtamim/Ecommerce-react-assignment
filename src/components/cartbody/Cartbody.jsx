@@ -9,8 +9,6 @@ const Cartbody = () => {
   return (
     <section id="cardbody">
       <Container>
-        <div className="circleWishlist text-center">4</div>
-        <div className="circlecart text-center">2</div>
         <div className="subMenu">
           <Row>
             <Col lg={2}>
